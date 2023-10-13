@@ -1,14 +1,6 @@
-let attempts = 0;
-let goodPassword = 'qwert';
-while(attempts++ <3) {
-    let userInput = prompt('введіть пароль');
-    if(userInput === goodPassword) {
-        ok();
-        break;
-    }
-alert('ви ввели неправильний пароль');
+let factNumber = 5;
+let res = 1;
+for(let counter = 1; counter <= factNumber; counter++) {
+    res *= counter;
 }
-console.log('ідіть геть');
-function ok () {
-console.log('це був правильний пароль');
-}
+
